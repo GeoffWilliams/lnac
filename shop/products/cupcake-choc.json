@@ -1,0 +1,8 @@
+{
+  "slug": "cupcake-choc",
+  "title": "Chocolate Cupcake",
+  "price": 4.80,
+  "stripe_price_id": "price_123",
+  "tags": ["cupcake", "chocolate"],
+  "image": "choc_cupcake.jpg"
+}

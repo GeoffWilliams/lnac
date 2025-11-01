@@ -1,0 +1,8 @@
+{
+  "slug": "coffee",
+  "title": "coffee",
+  "priceAUD": 5.50,
+  "stripe_price_id": "price_123",
+  "tags": ["coffee"],
+  "image": "coffee.jpg"
+}

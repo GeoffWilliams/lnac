@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "eta": "^4.0.1",
+    "serve-static-bun": "^0.5.3"
+  }
+}

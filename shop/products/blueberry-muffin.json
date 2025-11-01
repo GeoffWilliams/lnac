@@ -1,0 +1,8 @@
+{
+  "slug": "blueberry-muffin",
+  "title": "Blueberry Muffin",
+  "price": 7.50,
+  "stripe_price_id": "price_222",
+  "tags": ["blueberry", "muffin"],
+  "image": "blueberry_muffin.jpg"
+}

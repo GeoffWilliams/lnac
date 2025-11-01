@@ -1,0 +1,7 @@
+  <div class="product-card">
+    <a href="products/<%= it.slug %>/">
+      <img class="productthumb" src="/assets/images/<%= it.image %>" alt="<%= it.title %>" />
+      <h2><%= it.title %></h2>
+      <p>$<%= it.price %></p>
+    </a>
+  </div>

@@ -1,0 +1,5 @@
+<% layout('./layout') %>
+<h1><%= it.title %></h1>
+<p>$<%= it.price  %></p>
+<img class="productshot" src="/assets/images/<%= it.image %>" alt="product image" />
+<button onclick="location.href='https://checkout.stripe.com/pay/<%= it.stripe_price_id %>'">Buy Now</button>
