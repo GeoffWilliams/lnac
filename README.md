@@ -55,6 +55,7 @@ Workstation setup:
     * Mac users see https://git-scm.com/install/mac
 
 ```shell
+# adjust as needed
 mkdir ~/projects
 cd ~/projects
 git clone https://github.com/GeoffWilliams/lnac mycoolsite
@@ -64,7 +65,7 @@ code mycoolsite
 Try it out:
 1. In VScode, new terminal
 2. Compile: `bun bin/build.ts`
-3. Run local server: `bun build/server.ts`
+3. Run local server: `bun bin/server.ts`
 
 Now head to [https://localhost:3000](https://localhost:3000)
 
