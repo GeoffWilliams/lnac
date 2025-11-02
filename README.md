@@ -50,6 +50,9 @@ Hosting:
 Workstation setup:
 1. Install [bun](https://bun.com/)
 2. Install [vscode](https://code.visualstudio.com/)
+    * Mac users see https://code.visualstudio.com/docs/setup/mac
+3. Install git
+    * Mac users see https://git-scm.com/install/mac
 
 ```shell
 mkdir ~/projects
