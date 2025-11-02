@@ -48,8 +48,8 @@ Hosting:
 ## Quickstart
 
 Workstation setup:
-1. Install bun
-2. Install vscode
+1. Install [bun](https://bun.com/)
+2. Install [vscode](https://code.visualstudio.com/)
 
 ```shell
 mkdir ~/projects
@@ -86,7 +86,8 @@ sudo chown geoff:geoff /var/www/html/ -R
 
 ## Deploy
 
+Easiest to use `rsync`:
+
 ```shell
-# rsync to raspberry pi
-make deploy
+rsync -avz --delete ./dist/ someserver:/var/www/html/
 ```
